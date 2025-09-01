@@ -1,0 +1,33 @@
+{
+  "name": "women-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishaltakshak/Women-Safety-Backend.git"
+  },
+  "author": "vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishaltakshak/Women-Safety-Backend/issues"
+  },
+  "homepage": "https://github.com/Vishaltakshak/Women-Safety-Backend#readme",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  }
+}
