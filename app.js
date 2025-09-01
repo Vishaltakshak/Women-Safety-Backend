@@ -11,6 +11,9 @@ app.use(express.json());
 app.use(cors({
   origin:'http://localhost:5173',
 }))
+app.get("/", (req, res) => {
+  res.send("System working fine");
+});
 
 app.use("/api/user", userRoutes);
 app.use("/api",sosRoutes);
