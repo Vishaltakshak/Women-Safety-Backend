@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin:'http://localhost:5173',
+  origin:'https://women-s-safety.vercel.app',
 }))
 app.get("/", (req, res) => {
   res.send("System working fine");
